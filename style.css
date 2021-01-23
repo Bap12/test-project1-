@@ -1,0 +1,143 @@
+.header-logo img {
+    width: 200px;
+    height: auto;
+}
+
+.container {
+    max-width: 1478px;
+}
+
+.header {
+    background: #273c75;
+}
+
+.header ul {
+    margin-bottom: 0;
+    text-align: right;
+}
+
+.header ul li {
+    display: inline-block;
+}
+
+.header ul li a {
+    display: block;
+    color: aliceblue;
+    padding: 0 30px;
+    font-size: 24px;
+    line-height: 68px;
+    text-decoration: none;
+    border-right: 1px solid #fff;
+    transition: .4;
+    -webkit-transition: .4;
+    -moz-transition: .4;
+    -ms-transition: .4;
+    -o-transition: .4;
+}
+
+.header ul li:first-child a {
+    border-left: 1px solid #fff;
+}
+
+.header ul li a:hover {
+    background: #8c7ae6;
+}
+
+.banner {
+    background-image: url(img/banner.jpg);
+    padding: 130px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    block-size: 694px;
+}
+
+.banner-text {
+    margin-top: 186px;
+}
+
+.banner-text h1 {
+    background: rgba(52, 152, 219, .6);
+    color: #fff;
+    margin: 105px;
+    margin-top: 20px;
+    font-size: 50px;
+    padding: 23px 0;
+    border-radius: 42px;
+    margin-top: -100px;
+}
+
+.banner-text h2 {
+    background: rgba(29, 34, 37, 0.6);
+    color: #fff;
+    margin: 220px;
+    margin-top: 20px;
+    font-size: 60px;
+    padding: 23px 0;
+    border-radius: 42px;
+    margin-top: 1px
+}
+
+.about {
+    background: rgba(207, 216, 223, 0.6);
+}
+
+.service {
+    background-color: rgba(32, 45, 54, 0.6);
+}
+
+.service span {
+    display: block;
+    height: 60px;
+    width: 60px;
+    background: #3498db;
+    color: #fff;
+    margin: auto;
+    font-size: 35px;
+    line-height: 60px;
+    border-radius: 20px 0 20px 0;
+}
+
+.service h2 {
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.product-item p {
+    font-size: 28px;
+}
+
+.product-right ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.product-right ul li {
+    background: #da9999;
+    font-size: 32px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.footer {
+    background: #273c75;
+}
+
+.footer p {
+    margin-bottom: 0;
+    font-size: 35px;
+}
+
+.footer a {
+    color: #fff;
+    margin-left: 15px;
+    display: inline-block;
+}
